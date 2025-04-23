@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body {
+    background: url(blade-runner-blade-runner-2049-movies-car-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    margin-top: 32px;
+}
+
+.principal {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    text-shadow:
+        0 0 30px orange;
+}
+.apresentação {
+    width: 600px;
+    align-items: center;
+    flex-direction: column;
+}
+.apresentação_titulo {
+    padding-bottom: 40px;
+    font-family: "Bungee Spice";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36;
+}
+.apresentação_destaque {
+    color:red
+}
+.apresentação_texto {
+    font-family: "Bungee Spice";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+        0 0 30px orange;
+}
+.apresentação_botoes {
+    padding-top: 38px;
+    background-color: blue;
+}
+.apresentação_botoes_2 {
+    padding-top: 38px;
+    background-color: blue;
+}
+.botao {
+    background-color: #ff8c00;
+    padding: 16PX;
+    width: 280px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24;
+    font-weight: 600;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;
+}
+.imagem {
+    width: 512px;
+    height: 512px;
+    margin-left: 60px;
+}
